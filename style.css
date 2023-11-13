@@ -1,0 +1,19 @@
+#img-container {
+    width: 40vw;
+    height: 100vh;
+
+
+}
+#img-container img {
+    height: 100vh;
+    width: 100%
+}
+
+#img-container p {
+    position: absolute;
+    color: white;
+    bottom: 1px;
+    left: 5%;
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
