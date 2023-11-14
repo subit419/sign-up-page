@@ -3,14 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin Project Sign-up Page</title>
+    <title>Sign-up Page | TOP</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="img-container">
+    <!-- <div id="img-container">
         <img src="lake-reflection.jpg" alt="">
-        <!-- Robin Cainfield on Unsplashed  -->
-        <p>PHOTO BY ROBIN CAINFIELD ON UNSPLASH</p>
+        <div class="card-body">
+            <img src="odin-lined.png" alt="">
+        </div>
+         Robin Cainfield on Unsplashed 
+        <p class="photo-credit">PHOTO BY ROBIN CAINFIELD ON UNSPLASH</p>
+    </div> -->
+    <div class="main">
+        <div class="side-container">
+            
+            <div class="side-banner">
+                <div class="icon-container">
+                    <img src="odin-lined.png" alt="">
+                </div>
+                <div class="banner-header">
+                    <h1>SIGN-UP FORM</h1>
+                </div>
+            </div>
+            <p class="photo-credit">PHOTO BY ALI KAZAL ON UNSPLASH</p>
+        </div>
+        <div class="form-container">
+            <div class="form-header">
+                <p> This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>today</i> to get started!</p>
+                <p> You <i>know </i>you want to.</p>
+            </div>
+            <div class="form-content">
+                <div class="form-input">
+                    <form id="sign-up-form">
+                        <label for="firstname">FIRST NAME
+                            <input type="text" name="firstname" id="firstname" required>
+                            <div id="first-name-error" class="error"></div>
+                        </label>
+                        <label for="lastname">LAST NAME
+                            <input type="text" name="lastname" id="lastname">
+                            <div id="last-name-error" class="error"></div>
+                        </label>
+                        <label for="email">EMAIL
+                            <input type="email" name="email" id="email">
+                            <div id="email-error" class="error"></div>
+                        </label>
+                        <label for="phonenumber">PHONE NUMBER
+                            <input type="tel" name="phonenumber" id="phonenumber">
+                            <div id="phone-error" class="error"></div>
+                        </label>
+                        <label for="passwordA">PASSWORD
+                            <input type="password" name="passwordA" id="passwordA">
+                            <div id="passwordA-error" class="error"></div>
+                        </label>
+                        <label for="passwordB">CONFIRM PASSWORD
+                            <input type="password" name="passwordB" id="passwordB">
+                            <div id="passwordB-error" class="error"></div>
+                        </label>  
+                    </form>
+                </div>
+            </div>
+            <div class="form-submission">
+                <button id="btn-sign-up" type="submit" form="sign-up-form">Create Account</button>
+                <p>Already a member? <a href="">Sign in!</a></p>
+            </div>
+        </div>
+        
     </div>
     
 </body>
