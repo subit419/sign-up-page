@@ -44,6 +44,9 @@ html, body {
 .form-content {
     display:block;
 }
+.form-content p {
+    font-size: 1.2rem;
+}
 
 .form-input {
     display: flex;
@@ -73,12 +76,8 @@ form {
     width: 60vw;
     flex-flow: row wrap;
     gap: 1rem;
-    font-size: 1rem;
-
-
+    font-size: 0.9rem;
 }
-
-
 
 .photo-credit {
     position: absolute;
