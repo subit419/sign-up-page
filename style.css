@@ -5,6 +5,7 @@ html, body {
     padding: 0px;
     overflow-x: hidden;
     background-color: #dde9eb;
+    font-family: 'PT Sans', sans-serif;
 }
 .main {
     display: flex;
@@ -101,8 +102,6 @@ form {
     top: 14rem;
     text-align: center;
     font-size: 1.2em;
-    font-family: roboto;
-    
   }
 
 .side-banner img {
