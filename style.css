@@ -4,6 +4,7 @@ html, body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    background-color: #dde9eb;
 }
 .main {
     display: flex;
@@ -107,11 +108,13 @@ form {
 .side-banner img {
     max-height: 15vh;
     max-width: 100%;
-}
+} 
 
 .form-submission {
     margin-top: 2rem;
     padding: 4px 3vw;
+    display:flex;
+    flex-direction: column;
 }
 
 .form-submission p {
@@ -131,16 +134,42 @@ a {
     color: white;
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
+    width: 18rem;
 }
 
 #btn-sign-up:hover {
     background-color: #01262e;
 }
 
-/* TODO
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
+@media screen and (max-width: 850px) {
+    .main {
+        flex-direction: column;
     }
-  } */
+
+    .side-container {
+        width: 100vw;
+        height: 15rem;
+        background-position: center;
+    }
+
+    .side-banner {
+        top: 2rem;
+        opacity: .6;
+        max-height: 10vh;
+    }
+    .side-banner img {
+        max-height: 10vh;
+        max-width: 100%;
+    } 
+
+    .form-container, form, .form-content, .form-submission {
+        width: 100vw;
+        justify-content: center;
+    }
+    .form-submission{
+        align-items: center;
+    }
+
+}
+
 
